@@ -100,6 +100,11 @@ PRODUCT_PACKAGES += \
     com.dsi.ant.antradio_library \
     libantradio
 
+# Camera
+PRODUCT_PACKAGES += \    
+    camera.msm8937 \
+    libmm-qcamera
+
 # Display
 PRODUCT_PACKAGES += \
     copybit.msm8937 \
