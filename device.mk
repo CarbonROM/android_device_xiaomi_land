@@ -101,7 +101,7 @@ PRODUCT_PACKAGES += \
     libantradio
 
 # Camera
-PRODUCT_PACKAGES += \    
+PRODUCT_PACKAGES += \
     camera.msm8937 \
     libmm-qcamera
 
@@ -255,7 +255,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.vulkan.level-0.xml:system/etc/permissions/android.hardware.vulkan.level-0.xml \
     frameworks/native/data/etc/android.hardware.vulkan.version-1_0_3.xml:system/etc/permissions/android.hardware.vulkan.version-1_0_3.xml
-    
+
 # Wi-Fi
 PRODUCT_PACKAGES += \
     libqsap_sdk \
