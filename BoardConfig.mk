@@ -209,6 +209,10 @@ include device/qcom/sepolicy/sepolicy.mk
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy
 
+# Shims
+TARGET_LD_SHIM_LIBS := /vendor/bin/mm-qcamera-daemon|libshim_camera.so \
+    /system/bin/cameraserver|libshim_cameraservice.so
+
 # Treble
 ENABLE_VENDOR_IMAGE := true
 BOARD_VENDORIMAGE_FILE_SYSTEM_TYPE := ext4
