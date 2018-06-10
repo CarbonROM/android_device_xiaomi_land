@@ -1,8 +1,6 @@
 [
   {
-    "remote":"lineage",
-    "repository": "LineageOS/android_device_qcom_common",
-    "target_path": "device/qcom/common",
-    "revision":"staging/lineage-15.1"
+    "repository": "CarbonROM/android_kernel_xiaomi_msm8937",
+    "target_path": "kernel/xiaomi/msm8937"
   }
 ]
